@@ -1,11 +1,7 @@
 ---
-title: "G1Grp8-HousingIndexNowcast"
+title: "How will the Housing Price Index Move?"
 ---
 
-This is a Quarto website.
+# Stay Tuned for More Exciting Updates. {style="color: Gray"}
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+For the time being, check out our [project proposal here.](https://g1grp8-housingindexnowcast.netlify.app/proposal.qmd)
