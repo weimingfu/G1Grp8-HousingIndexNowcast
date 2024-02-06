@@ -10,7 +10,7 @@ website:
   navbar:
     logo: images/housing index.png
     left: 
-      - href: Proposal/proposal.qmd
+      - href: "Proposal/proposal.html"
         text: Proposal
     right:
       - href: index.qmd
