@@ -4,4 +4,4 @@ title: "How will the Housing Price Index Move?"
 
 # Stay Tuned for More Exciting Updates. {style="color: Gray"}
 
-For the time being, check out our [project proposal here.](https://g1grp8-housingindexnowcast.netlify.app/proposal.qmd)
+For the time being, check out our [project proposal here.](https://g1grp8-housingindexnowcast.netlify.app/proposal/proposal)
