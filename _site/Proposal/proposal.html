@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Proposal</title>
+<title>Is NOW the time to BUY?</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -114,7 +114,18 @@ ul.task-list li input[type="checkbox"] {
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
   <ul>
-  <li><a href="#awaiting-updates" id="toc-awaiting-updates" class="nav-link active" data-scroll-target="#awaiting-updates">Awaiting updates!!</a></li>
+  <li><a href="#housing-price-index-nowcasted" id="toc-housing-price-index-nowcasted" class="nav-link active" data-scroll-target="#housing-price-index-nowcasted"><strong>Housing Price Index “NOWCASTED”</strong></a>
+  <ul class="collapse">
+  <li><a href="#motivation" id="toc-motivation" class="nav-link" data-scroll-target="#motivation"><img src="images/motivation-01.png" class="img-fluid" width="45"> <strong>Motivation</strong></a></li>
+  <li><a href="#problem" id="toc-problem" class="nav-link" data-scroll-target="#problem"><img src="images/problem-02.png" class="img-fluid" width="45"> <strong>Problem</strong></a></li>
+  <li><a href="#current-literature" id="toc-current-literature" class="nav-link" data-scroll-target="#current-literature"><img src="images/literature-01.png" class="img-fluid" width="45"> Current Literature</a></li>
+  <li><a href="#our-solution" id="toc-our-solution" class="nav-link" data-scroll-target="#our-solution"><img src="images/solution.png" class="img-fluid" width="45"> <strong>Our Solution</strong></a></li>
+  <li><a href="#datasets" id="toc-datasets" class="nav-link" data-scroll-target="#datasets"><img src="images/dataset.png" class="img-fluid" width="45"> <strong>Datasets</strong></a></li>
+  <li><a href="#methodology-and-visual-analytics-approach" id="toc-methodology-and-visual-analytics-approach" class="nav-link" data-scroll-target="#methodology-and-visual-analytics-approach"><img src="images/methodology.png" class="img-fluid" width="45"> Methodology and Visual Analytics Approach</a></li>
+  <li><a href="#dashboard" id="toc-dashboard" class="nav-link" data-scroll-target="#dashboard"><img src="images/dashboard.png" class="img-fluid" width="45"> <strong>Dashboard</strong></a></li>
+  <li><a href="#project-gantt-chart" id="toc-project-gantt-chart" class="nav-link" data-scroll-target="#project-gantt-chart"><img src="images/gantt.png" class="img-fluid" width="45"> Project Gantt Chart</a></li>
+  <li><a href="#annex-r-shiny-packages" id="toc-annex-r-shiny-packages" class="nav-link" data-scroll-target="#annex-r-shiny-packages"><strong>Annex: R Shiny Packages</strong></a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -122,16 +133,158 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-about-jolla column-page-left">
  <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Proposal</h1>
+<h1 class="title">Is NOW the time to BUY?</h1>
+<p class="subtitle lead">Project Proposal on Visual Nowcasting for Property Price Index</p>
 </div>
 <div class="quarto-title-meta">
   </div>
 </header><main class="content column-page-left" id="quarto-document-content">
 
-<section id="awaiting-updates" class="level1">
-<h1>Awaiting updates!!</h1>
+<div class="cell">
+<style type="text/css">
+p {   
+  text-align: justify
+} 
+</style>
+</div>
+<section id="housing-price-index-nowcasted" class="level1">
+<h1><strong>Housing Price Index “NOWCASTED”</strong></h1>
+<section id="motivation" class="level2" style="color: darkblue">
+<h2 style="color: darkblue" data-anchor-id="motivation"><img src="images/motivation-01.png" class="img-fluid" width="45"> <strong>Motivation</strong></h2>
+<div style="color: black">
+<p>Singapore’s housing market distinguishes itself by operating under a dual-market structure that includes a <a href="https://www.economist.com/asia/2017/07/06/why-80-of-singaporeans-live-in-government-built-flats">public segment developed by the Housing Development Board (HDB)</a>, subject to strict government rules and regulations, and a private segment where market dynamics exclusively dictate prices. Government-regulated HDB flats, which constitute approximately 73% of residential units, accommodate 80% of Singapore’s populace, according to The Economist (2017). The government sets the prices for new HDB apartments, offering them to citizens at subsidized rates. <a href="https://www.bis.org/publ/bppdf/bispap64h.pdf">While the resale prices of HDB apartments are not directly managed, they are significantly shaped by governmental policies, which are periodically modified in response to the country’s macroeconomic challenges</a> (Chan et al., 2012). Despite the smaller scale of the private property sector, our analysis focuses on this segment due to its dynamics being less influenced by governmental control and more by market forces. Our study focuses on accurately and promptly predicting changes in private housing prices, a critical tool for homebuyers, sellers, investors, and policymakers.</p>
+</div>
+<hr>
+</section>
+<section id="problem" class="level2" style="color: darkblue">
+<h2 style="color: darkblue" data-anchor-id="problem"><img src="images/problem-02.png" class="img-fluid" width="45"> <strong>Problem</strong></h2>
+<div style="color: black">
+<p>Forecasting Singapore’s private housing index is beset with difficulties, arising from the complex interplay among several factors such as economic indicators, employment trends, policy changes, and current market sentiments. The intricacy is further intensified by the delayed nature of crucial indices and indicators, which are commonly released with a substantial time delay, usually spanning from one to three months. These delays impede the capacity to accurately predict private house price changes, as the most up-to-date data required for precise forecasts is not easily accessible.</p>
+<p>To tackle this problem, it is necessary to utlilise nowcasting models that can precisely forecast the future direction of the Singapore private housing market. The objective is to utilize these models to provide stakeholders, including homebuyers, sellers, investors, and policy makers, with timely and convenient access to predictive data via visual analytics.</p>
+</div>
+<hr>
+</section>
+<section id="current-literature" class="level2" style="color: darkblue">
+<h2 style="color: darkblue" data-anchor-id="current-literature"><img src="images/literature-01.png" class="img-fluid" width="45"> Current Literature</h2>
+<div style="color: black">
+<p><a href="https://www.nri.com/-/media/Corporate/en/Files/PDF/knowledge/publication/lakyara/2013/06/lakyaravol169.pdf?la=en&amp;hash=9CDEB30C2F6C1222535B0E48647FB6FC04B16552">Taniyama (2013)</a> pioneers the use of real-time data, such as news articles and internet search queries, to forecast real estate market trends. By quantifying market sentiment and public interest obtained from these digital sources, the study presents an innovative approach for analyzing the present state of the housing market, demonstrating that immediate digital footprints might be effective indicators of market dynamics..</p>
+<p><a href="https://dr.ntu.edu.sg/handle/10356/61073">Housing Price Prediction Using Neural Networks (2014)</a> research employs artificial neural network (ANN) models to predict public housing prices in Singapore. The study is divided into two sections: the first uses static ANN to estimate selling prices based on housing characteristics, and the second uses dynamic ANN to predict the trend of the resale price index, incorporating nine independent economic and demographic variables.</p>
+<p><a href="https://dr.ntu.edu.sg/handle/10356/157358">Housing Price Prediction Using Deep Learning (2022</a>) advances the field by comparing deep learning methods against traditional machine learning algorithms for forecasting the housing resale price index in Singapore. By integrating both historical housing data and macroeconomic indicators, this research evaluates the effectiveness of various models, including Long Short-Term Memory (LSTM), Recurrent Neural Network (RNN), and others, in capturing the complex patterns of price movements, thereby offering a more nuanced understanding of predictive performance in the housing market.</p>
+</div>
+<hr>
+</section>
+<section id="our-solution" class="level2" style="color: darkblue">
+<h2 style="color: darkblue" data-anchor-id="our-solution"><img src="images/solution.png" class="img-fluid" width="45"> <strong>Our Solution</strong></h2>
+<div style="color: black">
+<p>Leveraging a variety of R packages and visual analytics techniques, our team intends to construct nowcasting models through an intuitive R Shiny application. This tool is designed to empower stakeholders, providing them with enhanced capabilities to form more informed decisions regarding the future of Singapore’s private housing market.</p>
+<p>The application developed by our team will enable users to:</p>
+<ol type="a">
+<li>Conduct visual analyses of critical time series data, including the housing price index, interest rates, construction raw material prices, and stock market indices, facilitating straightforward comparisons across these varying series.</li>
+<li>Grasp the implications of fluctuating factors such as interest rates, stock market indices, and costs of raw materials—variables that shift within the period of calculating the housing price index—and understand their predictive value for the future direction of housing prices.</li>
+<li>Develop and display nowcasting models specifically tailored for the housing price index, assessing their precision using established evaluation metrics like the Mean Squared Error (MSE) or the Root Mean Squared Error (RMSE).</li>
+</ol>
+</div>
+<hr>
+</section>
+<section id="datasets" class="level2" style="color: darkblue">
+<h2 style="color: darkblue" data-anchor-id="datasets"><img src="images/dataset.png" class="img-fluid" width="45"> <strong>Datasets</strong></h2>
+<div style="color: black; text-align: left">
+<p>This study will utilize datasets obtained from official government portals, encompassing a range of economic indicators:</p>
+<ul>
+<li><strong>Singapore Private Residential Property Price Index</strong>: A quarterly index tracking changes from March 1975 to June 2023.</li>
+<li><strong>Singapore Domestic Interest Rates</strong>: The daily SORA Index data spanning from January 1987 to January 2024.</li>
+<li><strong>Straits Times Index (STI)</strong>: Daily STI values from April 1985 to January 2024, reflecting stock market trends.</li>
+<li><strong>Prices of Raw Materials</strong>: Monthly indices for cement, steel bars, granite, concreting sand, and ready-mixed concrete, providing insight into construction cost dynamics.</li>
+<li><strong>Unemployment Rate</strong>: Quarterly data on the percentage of unemployed individuals from March 1992 to December 2023, offering a measure of labor market health.</li>
+</ul>
+</div>
+<hr>
+</section>
+<section id="methodology-and-visual-analytics-approach" class="level2" style="color: darkblue">
+<h2 style="color: darkblue" data-anchor-id="methodology-and-visual-analytics-approach"><img src="images/methodology.png" class="img-fluid" width="45"> Methodology and Visual Analytics Approach</h2>
+<div style="color: black; text-align: left">
+<section id="exploratory-and-comparative-data-analysis-eda-cda" class="level3">
+<h3 data-anchor-id="exploratory-and-comparative-data-analysis-eda-cda"><strong>Exploratory and Comparative Data Analysis (EDA &amp; CDA)</strong></h3>
+<ul>
+<li>Time series visualizations for a range of indices.</li>
+<li>Features enabling users to compare time series of indices within chosen time frames.</li>
+<li>Visual representation of statistical summaries for various indices and economic indicators.</li>
+</ul>
+</section>
+<section id="model-development-and-visualization" class="level3">
+<h3 data-anchor-id="model-development-and-visualization"><strong>Model Development and Visualization</strong></h3>
+<ul>
+<li>Deployment of an R Shiny application to facilitate nowcasting with multiple model types for private housing price indices, for instance:
+<ul>
+<li><strong>Traditional Forecasting Models</strong>: Exponential Smoothing, ARIMA.</li>
+<li><strong>Machine Learning Models</strong>: Random Forest, Gradient Boost, Long Short-Term Memory and Prophet.</li>
+</ul></li>
+<li>Model evaluation using standard metrics like Mean Squared Error (MSE) and Root Mean Squared Error (RMSE), with intuitive visualizations for user-friendly assessment.</li>
+<li>Interactive features for parameter adjustment to aid users in finding optimized model settings.</li>
+<li>Provision for model comparison functions, contingent on time availability.</li>
+</ul>
+</section>
+</div>
+<hr>
+</section>
+<section id="dashboard" class="level2" style="color: darkblue">
+<h2 style="color: darkblue" data-anchor-id="dashboard"><img src="images/dashboard.png" class="img-fluid" width="45"> <strong>Dashboard</strong></h2>
+<div style="color: black">
+<p>The R Shiny app will feature an interactive dashboard that streamlines the exploration of housing index trends, model forecasts, and essential metrics. This user-centred platform is designed for seamless interaction, ensuring that users can easily access and interpret complex data visualizations.</p>
+<p>Schematics of the dashboard are provided below:</p>
+</div>
+<div class="tabset-margin-container"></div><div class="panel-tabset" style="color: black">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Main Dashboard</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Data Analysis (EDA)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Traditional Forecasting Model</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Nowcasting Model</a></li></ul>
+<div class="tab-content" style="color: black">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p><img src="images/clipboard-359545664.png" class="img-fluid"></p>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p><img src="images/clipboard-2091087014.png" class="img-fluid"></p>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<p><img src="images/clipboard-3682342069.png" class="img-fluid"></p>
+</div>
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<p><img src="images/clipboard-303956959.png" class="img-fluid"></p>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="project-gantt-chart" class="level2" style="color: darkblue">
+<h2 style="color: darkblue" data-anchor-id="project-gantt-chart"><img src="images/gantt.png" class="img-fluid" width="45"> Project Gantt Chart</h2>
+<p><img src="images/clipboard-3468730263.png" class="img-fluid" width="1000"></p>
+<hr>
+</section>
+<section id="annex-r-shiny-packages" class="level2">
+<h2 data-anchor-id="annex-r-shiny-packages"><strong>Annex: R Shiny Packages</strong></h2>
+<div style="text-align: left">
+<p>The list of R Shiny packages (non-exhaustive) are expected to be used in this project:</p>
+<ul>
+<li><strong>shiny:</strong> The core package for building interactive web applications in R.</li>
+<li><strong>shinydashboard:</strong> Provides a framework for creating dashboards with Shiny, allowing you to organize and layout UI elements efficiently.</li>
+<li><strong>ggplot2:</strong> For creating elegant and customizable visualizations using the Grammar of Graphics.</li>
+<li><strong>plotly:</strong> Adds interactive and dynamic plots to your Shiny app, enabling users to zoom, pan, and hover over data points for additional information.</li>
+<li><strong>dplyr:</strong> For data manipulation tasks such as filtering, summarizing, and transforming data frames.</li>
+<li><strong>tidyr:</strong> Helps with data tidying tasks such as reshaping data between wide and long formats.</li>
+<li><strong>DT:</strong> Enables the integration of interactive and dynamic data tables into your Shiny app, allowing users to sort, filter, and paginate through large datasets.</li>
+<li><strong>forecast:</strong> Provides functions for time series forecasting, including methods like ARIMA, exponential smoothing, and dynamic regression models.</li>
+<li><strong>xts:</strong> Extensible Time Series (xts) objects facilitate handling time series data, which is essential for modeling and forecasting the housing price index over time.</li>
+<li><strong>tidyquant:</strong> Combines the power of tidyverse and quantmod packages, providing seamless integration of financial data analysis and visualization into your Shiny app.</li>
+<li><strong>shinythemes:</strong> Offers a variety of pre-built themes and styling options to customize the appearance of your Shiny app.</li>
+<li><strong>shinyWidgets:</strong> Provides additional input widgets and UI components to enhance the interactivity and user experience of your Shiny app.</li>
+<li><strong>randomForest:</strong> Implements the Random Forest algorithm for classification and regression tasks. It provides efficient and easy-to-use functions for building, tuning, and predicting with random forest models.</li>
+<li><strong>gbm:</strong> Implements the Gradient Boosting Machine (GBM) algorithm, which is a popular ensemble learning method. It allows you to build gradient boosting models for regression and classification tasks, with options for tuning parameters and controlling model complexity.</li>
+<li><strong>xgboost:</strong> Provides an interface to the XGBoost library, which is an optimized implementation of gradient boosting. XGBoost offers high performance, scalability, and support for advanced features such as regularization and custom objective functions.</li>
+<li><strong>keras</strong>: Offers a high-level neural networks API for building deep learning models, including LSTM networks, using TensorFlow as the backend. Keras simplifies the process of constructing and training complex neural architectures with minimal code.</li>
+<li><strong>tensorflow</strong>: Provides direct access to the TensorFlow library, which includes functionality for building and training deep learning models, including LSTM networks. TensorFlow offers flexibility, scalability, and support for distributed computing.</li>
+<li><strong>prophet</strong>: Provides an interface to use Google’s Prophet forecasting model.</li>
+</ul>
+</div>
 
 
+</section>
 </section>
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main>  
 </div>
