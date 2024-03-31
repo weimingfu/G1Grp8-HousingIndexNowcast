@@ -34,7 +34,7 @@ Our team explored creating forecasting and nowcasting models that can precisely 
 
 ::: content-container
 ::: listing-block
-## Proposal
+## Project Intro & Concept
 
 </a>
 

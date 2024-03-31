@@ -9,15 +9,15 @@ website:
     right: "Copyright 2024"
   navbar:
     logo: images/housing index.png
-    left: 
+    left:
+      - href: "Proposal/proposal.html"
+        text: Project Intro & Concept
       - href: "https://isss608-wmfu.shinyapps.io/VAAProject/"
         text: Shinyapp
       - href: "userguide/userguide.html"
         text: User Guide
       - href: "poster/poster.html"
         text: Poster
-      - href: "Proposal/proposal.html"
-        text: Proposal
       - href: "team/team.html"
         text: About the Creators
     right:
