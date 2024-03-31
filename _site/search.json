@@ -25,7 +25,7 @@
     "href": "index.html",
     "title": "Is NOW the time to BUY?",
     "section": "",
-    "text": "Our team will explore to create nowcasting models that can precisely forecast the future direction of the Singapore private housing market. The objective is to utilize these models to provide stakeholders, including homebuyers, sellers, investors, and policy makers, with timely and convenient access to predictive data via visual analytics."
+    "text": "Our team explored creating forecasting and nowcasting models that can precisely forecast the future direction of the Singapore private housing market. The objective is to utilize these models to provide stakeholders, including homebuyers, sellers, investors, and policy makers, with timely and convenient access to predictive data via visual analytics."
   },
   {
     "objectID": "index.html#proposal",
@@ -39,28 +39,28 @@
     "href": "index.html#shinyapp",
     "title": "Is NOW the time to BUY?",
     "section": "Shinyapp",
-    "text": "Shinyapp\nCan’t wait to get started?\nClick on any of the images below to access our R Shiny Application.\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\nIntro\nEDA\nTime Series Forecasting\nNowcasting"
+    "text": "Shinyapp\n\nCan’t wait to get started?\n\n\nClick on any of the images below to access our R Shiny Application.\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\nIntro\nEDA\nTime Series Forecasting\nNowcasting"
   },
   {
     "objectID": "index.html#user-guide",
     "href": "index.html#user-guide",
     "title": "Is NOW the time to BUY?",
     "section": "User Guide",
-    "text": "User Guide\nNeed help? Fret not.\nA user guide is available for all the help you need!"
+    "text": "User Guide\n\nNeed help? Fret not.\n\n\nA user guide is available for all the help you need!"
   },
   {
     "objectID": "index.html#poster",
     "href": "index.html#poster",
     "title": "Is NOW the time to BUY?",
     "section": "Poster",
-    "text": "Poster\nWant to know everything about the R Shiny application?\nA poster offering a ‘bird’s eye view’ is available."
+    "text": "Poster\n\nWant to know everything about the R Shiny application?\n\n\nA poster offering a ‘bird’s eye view’ is available."
   },
   {
     "objectID": "index.html#the-people-behind-the-application",
     "href": "index.html#the-people-behind-the-application",
     "title": "Is NOW the time to BUY?",
     "section": "The people behind the application",
-    "text": "The people behind the application\nMeet the team of to-be “property magnates”"
+    "text": "The people behind the application\n\nMeet the team of to-be “property magnates”"
   },
   {
     "objectID": "Proposal/proposal.html#motivation",
