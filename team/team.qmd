@@ -1,0 +1,16 @@
+---
+title: "The Creators"
+toc: false
+number-sections: false
+execute: 
+    eval: true
+    echo: false
+    code-fold: true
+    code-tools: true
+    warning: false
+    message: false
+---
+
+#### Meet the team of to-be "property magnates"
+
+![](/images/team.png)

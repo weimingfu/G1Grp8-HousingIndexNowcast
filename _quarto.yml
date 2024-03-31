@@ -18,6 +18,8 @@ website:
         text: Poster
       - href: "Proposal/proposal.html"
         text: Proposal
+      - href: "team/team.html"
+        text: About the Creators
     right:
       - icon: house-door-fill
         href: index.qmd

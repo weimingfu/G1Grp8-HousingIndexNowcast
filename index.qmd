@@ -85,26 +85,3 @@ Our team explored creating forecasting and nowcasting models that can precisely 
 [![](images/poster.png){fig-align="center" width="450"}](poster/poster.qmd)
 :::
 :::
-
-## The people behind the application
-
-#### Meet the team of to-be "property magnates"
-
-```{r flowchart, echo=FALSE}
-DiagrammeR::grViz("
-  digraph flowchart {
-    node [shape = oval, style = filled, fillcolor = lightblue, fontcolor = black];
-    
-    A [label = 'Project Sponsor\n Prof. Kam', fillcolor = '#FF6666', fontcolor = 'white'];
-    B [label = 'Nowcasting Private Property PPI', fillcolor = '#6666FF', fontcolor = 'white'];
-    C [label = 'Chief Explorer\nJingheng\njh.cai.2023@mitb.smu.edu.sg', fillcolor = '#66CC66', fontcolor = 'black'];
-    D [label = 'Chief Forecaster\nShannon\nshannon.lee.2022@mitb.smu.edu.sg', fillcolor = '#66CC66', fontcolor = 'black'];
-    E [label = 'Chief Nowcaster\nWeiming\nwm.fu.2023@mitb.smu.edu.sg', fillcolor = '#66CC66', fontcolor = 'black'];
-    
-    A -> B;
-    B -> C;
-    B -> D;
-    B -> E;
-  }
-")
-```
