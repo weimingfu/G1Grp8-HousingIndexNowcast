@@ -33,6 +33,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -81,22 +82,27 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../Proposal/proposal.html" rel="" target="" aria-current="page">
- <span class="menu-text">Proposal</span></a>
+    <a class="nav-link" href="https://isss608-wmfu.shinyapps.io/VAAProject/" rel="" target="">
+ <span class="menu-text">Shinyapp</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../userguide/userguide.pdf" rel="" target="">
+    <a class="nav-link" href="../userguide/userguide.html" rel="" target="">
  <span class="menu-text">User Guide</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../poster/poster.html" rel="" target="">
+ <span class="menu-text">Poster</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../Proposal/proposal.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Proposal</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html" rel="" target="">
+    <a class="nav-link" href="../index.html" rel="" target=""><i class="bi bi-house-door-fill" role="img">
+</i> 
  <span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../about.html" rel="" target="">
- <span class="menu-text">About</span></a>
   </li>  
 </ul>
             <div class="quarto-navbar-tools">
@@ -117,6 +123,7 @@ ul.task-list li input[type="checkbox"] {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
+   
   <ul>
   <li><a href="#housing-price-index-nowcasted" id="toc-housing-price-index-nowcasted" class="nav-link active" data-scroll-target="#housing-price-index-nowcasted"><strong>Housing Price Index “NOWCASTED”</strong></a>
   <ul class="collapse">
@@ -134,15 +141,25 @@ ul.task-list li input[type="checkbox"] {
 </nav>
     </div>
 <!-- main -->
-<div class="quarto-about-jolla column-page-left">
- <header id="title-block-header" class="quarto-title-block default">
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Is NOW the time to BUY?</h1>
 <p class="subtitle lead">Project Proposal on Visual Nowcasting for Property Price Index</p>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    
+  
+    
   </div>
-</header><main class="content column-page-left" id="quarto-document-content">
+  
+
+</header>
 
 <div class="cell">
 <style type="text/css">
@@ -154,14 +171,14 @@ p {
 <section id="housing-price-index-nowcasted" class="level1">
 <h1><strong>Housing Price Index “NOWCASTED”</strong></h1>
 <section id="motivation" class="level2" style="color: darkblue">
-<h2 style="color: darkblue" data-anchor-id="motivation"><img src="images/motivation-01.png" class="img-fluid" width="45"> <strong>Motivation</strong></h2>
+<h2 style="color: darkblue" class="anchored" data-anchor-id="motivation"><img src="images/motivation-01.png" class="img-fluid" width="45"> <strong>Motivation</strong></h2>
 <div style="color: black">
 <p>Singapore’s housing market distinguishes itself by operating under a dual-market structure that includes a <a href="https://www.economist.com/asia/2017/07/06/why-80-of-singaporeans-live-in-government-built-flats">public segment developed by the Housing Development Board (HDB)</a>, subject to strict government rules and regulations, and a private segment where market dynamics exclusively dictate prices. Government-regulated HDB flats, which constitute approximately 73% of residential units, accommodate 80% of Singapore’s populace, according to The Economist (2017). The government sets the prices for new HDB apartments, offering them to citizens at subsidized rates. <a href="https://www.bis.org/publ/bppdf/bispap64h.pdf">While the resale prices of HDB apartments are not directly managed, they are significantly shaped by governmental policies, which are periodically modified in response to the country’s macroeconomic challenges</a> (Chan et al., 2012). Despite the smaller scale of the private property sector, our analysis focuses on this segment due to its dynamics being less influenced by governmental control and more by market forces. Our study focuses on accurately and promptly predicting changes in private housing prices, a critical tool for homebuyers, sellers, investors, and policymakers.</p>
 </div>
 <hr>
 </section>
 <section id="problem" class="level2" style="color: darkblue">
-<h2 style="color: darkblue" data-anchor-id="problem"><img src="images/problem-02.png" class="img-fluid" width="45"> <strong>Problem</strong></h2>
+<h2 style="color: darkblue" class="anchored" data-anchor-id="problem"><img src="images/problem-02.png" class="img-fluid" width="45"> <strong>Problem</strong></h2>
 <div style="color: black">
 <p>Forecasting Singapore’s private housing index is beset with difficulties, arising from the complex interplay among several factors such as economic indicators, employment trends, policy changes, and current market sentiments. The intricacy is further intensified by the delayed nature of crucial indices and indicators, which are commonly released with a substantial time delay, usually spanning from one to three months. These delays impede the capacity to accurately predict private house price changes, as the most up-to-date data required for precise forecasts is not easily accessible.</p>
 <p>To tackle this problem, it is necessary to utlilise nowcasting models that can precisely forecast the future direction of the Singapore private housing market. The objective is to utilize these models to provide stakeholders, including homebuyers, sellers, investors, and policy makers, with timely and convenient access to predictive data via visual analytics.</p>
@@ -169,7 +186,7 @@ p {
 <hr>
 </section>
 <section id="current-literature" class="level2" style="color: darkblue">
-<h2 style="color: darkblue" data-anchor-id="current-literature"><img src="images/literature-01.png" class="img-fluid" width="45"> Current Literature</h2>
+<h2 style="color: darkblue" class="anchored" data-anchor-id="current-literature"><img src="images/literature-01.png" class="img-fluid" width="45"> Current Literature</h2>
 <div style="color: black">
 <p><a href="https://www.nri.com/-/media/Corporate/en/Files/PDF/knowledge/publication/lakyara/2013/06/lakyaravol169.pdf?la=en&amp;hash=9CDEB30C2F6C1222535B0E48647FB6FC04B16552">Taniyama (2013)</a> pioneers the use of real-time data, such as news articles and internet search queries, to forecast real estate market trends. By quantifying market sentiment and public interest obtained from these digital sources, the study presents an innovative approach for analyzing the present state of the housing market, demonstrating that immediate digital footprints might be effective indicators of market dynamics..</p>
 <p><a href="https://dr.ntu.edu.sg/handle/10356/61073">Housing Price Prediction Using Neural Networks (2014)</a> research employs artificial neural network (ANN) models to predict public housing prices in Singapore. The study is divided into two sections: the first uses static ANN to estimate selling prices based on housing characteristics, and the second uses dynamic ANN to predict the trend of the resale price index, incorporating nine independent economic and demographic variables.</p>
@@ -178,7 +195,7 @@ p {
 <hr>
 </section>
 <section id="our-solution" class="level2" style="color: darkblue">
-<h2 style="color: darkblue" data-anchor-id="our-solution"><img src="images/solution.png" class="img-fluid" width="45"> <strong>Our Solution</strong></h2>
+<h2 style="color: darkblue" class="anchored" data-anchor-id="our-solution"><img src="images/solution.png" class="img-fluid" width="45"> <strong>Our Solution</strong></h2>
 <div style="color: black">
 <p>Leveraging a variety of R packages and visual analytics techniques, our team intends to construct nowcasting models through an intuitive R Shiny application. This tool is designed to empower stakeholders, providing them with enhanced capabilities to form more informed decisions regarding the future of Singapore’s private housing market.</p>
 <p>The application developed by our team will enable users to:</p>
@@ -191,7 +208,7 @@ p {
 <hr>
 </section>
 <section id="datasets" class="level2" style="color: darkblue">
-<h2 style="color: darkblue" data-anchor-id="datasets"><img src="images/dataset.png" class="img-fluid" width="45"> <strong>Datasets</strong></h2>
+<h2 style="color: darkblue" class="anchored" data-anchor-id="datasets"><img src="images/dataset.png" class="img-fluid" width="45"> <strong>Datasets</strong></h2>
 <div style="color: black; text-align: left">
 <p>This study will utilize datasets obtained from official government portals, encompassing a range of economic indicators:</p>
 <ul>
@@ -205,10 +222,10 @@ p {
 <hr>
 </section>
 <section id="methodology-and-visual-analytics-approach" class="level2" style="color: darkblue">
-<h2 style="color: darkblue" data-anchor-id="methodology-and-visual-analytics-approach"><img src="images/methodology.png" class="img-fluid" width="45"> Methodology and Visual Analytics Approach</h2>
+<h2 style="color: darkblue" class="anchored" data-anchor-id="methodology-and-visual-analytics-approach"><img src="images/methodology.png" class="img-fluid" width="45"> Methodology and Visual Analytics Approach</h2>
 <div style="color: black; text-align: left">
 <section id="exploratory-and-comparative-data-analysis-eda-cda" class="level3">
-<h3 data-anchor-id="exploratory-and-comparative-data-analysis-eda-cda"><strong>Exploratory and Comparative Data Analysis (EDA &amp; CDA)</strong></h3>
+<h3 class="anchored" data-anchor-id="exploratory-and-comparative-data-analysis-eda-cda"><strong>Exploratory and Comparative Data Analysis (EDA &amp; CDA)</strong></h3>
 <ul>
 <li>Time series visualizations for a range of indices.</li>
 <li>Features enabling users to compare time series of indices within chosen time frames.</li>
@@ -216,7 +233,7 @@ p {
 </ul>
 </section>
 <section id="model-development-and-visualization" class="level3">
-<h3 data-anchor-id="model-development-and-visualization"><strong>Model Development and Visualization</strong></h3>
+<h3 class="anchored" data-anchor-id="model-development-and-visualization"><strong>Model Development and Visualization</strong></h3>
 <ul>
 <li>Deployment of an R Shiny application to facilitate nowcasting with multiple model types for private housing price indices, for instance:
 <ul>
@@ -232,7 +249,7 @@ p {
 <hr>
 </section>
 <section id="dashboard" class="level2" style="color: darkblue">
-<h2 style="color: darkblue" data-anchor-id="dashboard"><img src="images/dashboard.png" class="img-fluid" width="45"> <strong>Dashboard</strong></h2>
+<h2 style="color: darkblue" class="anchored" data-anchor-id="dashboard"><img src="images/dashboard.png" class="img-fluid" width="45"> <strong>Dashboard</strong></h2>
 <div style="color: black">
 <p>The R Shiny app will feature an interactive dashboard that streamlines the exploration of housing index trends, model forecasts, and essential metrics. This user-centred platform is designed for seamless interaction, ensuring that users can easily access and interpret complex data visualizations.</p>
 <p>Schematics of the dashboard are provided below:</p>
@@ -257,12 +274,12 @@ p {
 <hr>
 </section>
 <section id="project-gantt-chart" class="level2" style="color: darkblue">
-<h2 style="color: darkblue" data-anchor-id="project-gantt-chart"><img src="images/gantt.png" class="img-fluid" width="45"> Project Gantt Chart</h2>
+<h2 style="color: darkblue" class="anchored" data-anchor-id="project-gantt-chart"><img src="images/gantt.png" class="img-fluid" width="45"> Project Gantt Chart</h2>
 <p><img src="images/clipboard-3468730263.png" class="img-fluid" width="1000"></p>
 <hr>
 </section>
 <section id="annex-r-shiny-packages" class="level2">
-<h2 data-anchor-id="annex-r-shiny-packages"><strong>Annex: R Shiny Packages</strong></h2>
+<h2 class="anchored" data-anchor-id="annex-r-shiny-packages"><strong>Annex: R Shiny Packages</strong></h2>
 <div style="text-align: left">
 <p>The list of R Shiny packages (non-exhaustive) are expected to be used in this project:</p>
 <ul>
@@ -290,9 +307,8 @@ p {
 
 </section>
 </section>
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main>  
-</div>
- <!-- /main -->
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -313,6 +329,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

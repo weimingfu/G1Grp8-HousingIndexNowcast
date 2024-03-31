@@ -1,5 +1,68 @@
 [
   {
+    "objectID": "userguide/userguide.html",
+    "href": "userguide/userguide.html",
+    "title": "USER GUIDE",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "poster/poster.html",
+    "href": "poster/poster.html",
+    "title": "poster",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Work in Progress\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Is NOW the time to BUY?",
+    "section": "",
+    "text": "Our team will explore to create nowcasting models that can precisely forecast the future direction of the Singapore private housing market. The objective is to utilize these models to provide stakeholders, including homebuyers, sellers, investors, and policy makers, with timely and convenient access to predictive data via visual analytics."
+  },
+  {
+    "objectID": "index.html#proposal",
+    "href": "index.html#proposal",
+    "title": "Is NOW the time to BUY?",
+    "section": "Proposal",
+    "text": "Proposal\n\n\n\n\n\n  \n\n\n\n\nIs NOW the time to BUY?\n\n\nProject Proposal on Visual Nowcasting for Property Price Index\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#shinyapp",
+    "href": "index.html#shinyapp",
+    "title": "Is NOW the time to BUY?",
+    "section": "Shinyapp",
+    "text": "Shinyapp\nCan’t wait to get started?\nClick on any of the images below to access our R Shiny Application.\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\nIntro\nEDA\nTime Series Forecasting\nNowcasting"
+  },
+  {
+    "objectID": "index.html#user-guide",
+    "href": "index.html#user-guide",
+    "title": "Is NOW the time to BUY?",
+    "section": "User Guide",
+    "text": "User Guide\nNeed help? Fret not.\nA user guide is available for all the help you need!"
+  },
+  {
+    "objectID": "index.html#poster",
+    "href": "index.html#poster",
+    "title": "Is NOW the time to BUY?",
+    "section": "Poster",
+    "text": "Poster\nWant to know everything about the R Shiny application?\nA poster offering a ‘bird’s eye view’ is available."
+  },
+  {
+    "objectID": "index.html#the-people-behind-the-application",
+    "href": "index.html#the-people-behind-the-application",
+    "title": "Is NOW the time to BUY?",
+    "section": "The people behind the application",
+    "text": "The people behind the application\nMeet the team of to-be “property magnates”"
+  },
+  {
     "objectID": "Proposal/proposal.html#motivation",
     "href": "Proposal/proposal.html#motivation",
     "title": "Is NOW the time to BUY?",
@@ -61,19 +124,5 @@
     "title": "Is NOW the time to BUY?",
     "section": "Annex: R Shiny Packages",
     "text": "Annex: R Shiny Packages\n\nThe list of R Shiny packages (non-exhaustive) are expected to be used in this project:\n\nshiny: The core package for building interactive web applications in R.\nshinydashboard: Provides a framework for creating dashboards with Shiny, allowing you to organize and layout UI elements efficiently.\nggplot2: For creating elegant and customizable visualizations using the Grammar of Graphics.\nplotly: Adds interactive and dynamic plots to your Shiny app, enabling users to zoom, pan, and hover over data points for additional information.\ndplyr: For data manipulation tasks such as filtering, summarizing, and transforming data frames.\ntidyr: Helps with data tidying tasks such as reshaping data between wide and long formats.\nDT: Enables the integration of interactive and dynamic data tables into your Shiny app, allowing users to sort, filter, and paginate through large datasets.\nforecast: Provides functions for time series forecasting, including methods like ARIMA, exponential smoothing, and dynamic regression models.\nxts: Extensible Time Series (xts) objects facilitate handling time series data, which is essential for modeling and forecasting the housing price index over time.\ntidyquant: Combines the power of tidyverse and quantmod packages, providing seamless integration of financial data analysis and visualization into your Shiny app.\nshinythemes: Offers a variety of pre-built themes and styling options to customize the appearance of your Shiny app.\nshinyWidgets: Provides additional input widgets and UI components to enhance the interactivity and user experience of your Shiny app.\nrandomForest: Implements the Random Forest algorithm for classification and regression tasks. It provides efficient and easy-to-use functions for building, tuning, and predicting with random forest models.\ngbm: Implements the Gradient Boosting Machine (GBM) algorithm, which is a popular ensemble learning method. It allows you to build gradient boosting models for regression and classification tasks, with options for tuning parameters and controlling model complexity.\nxgboost: Provides an interface to the XGBoost library, which is an optimized implementation of gradient boosting. XGBoost offers high performance, scalability, and support for advanced features such as regularization and custom objective functions.\nkeras: Offers a high-level neural networks API for building deep learning models, including LSTM networks, using TensorFlow as the backend. Keras simplifies the process of constructing and training complex neural architectures with minimal code.\ntensorflow: Provides direct access to the TensorFlow library, which includes functionality for building and training deep learning models, including LSTM networks. TensorFlow offers flexibility, scalability, and support for distributed computing.\nprophet: Provides an interface to use Google’s Prophet forecasting model."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "Work in Progress\n\n\n Back to top"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Is NOW the time to BUY?",
-    "section": "",
-    "text": "Our team will explore to create nowcasting models that can precisely forecast the future direction of the Singapore private housing market. The objective is to utilize these models to provide stakeholders, including homebuyers, sellers, investors, and policy makers, with timely and convenient access to predictive data via visual analytics.\n\nStay Tuned for More Exciting Updates.\nFor the time being, check out our project proposal here.\n\n\n\n Back to top"
   }
 ]
