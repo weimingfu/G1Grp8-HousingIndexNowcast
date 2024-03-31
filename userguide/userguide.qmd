@@ -1,0 +1,14 @@
+---
+title: "USER GUIDE"
+toc: false
+number-sections: true
+execute: 
+    eval: true
+    echo: false
+    code-fold: true
+    code-tools: true
+    warning: false
+    message: false
+---
+
+<embed src="userguide.pdf" type="application/pdf" width="100%" height="600px" />

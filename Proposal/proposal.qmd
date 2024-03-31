@@ -12,9 +12,9 @@ p {
 } 
 ```
 
-# **Housing Price Index “NOWCASTED”**
+# **Housing Price Index "NOWCASTED"**
 
-## ![](images/motivation-01.png){width="45"} **Motivation**  {style="color: darkblue"}
+## ![](images/motivation-01.png){width="45"} **Motivation** {style="color: darkblue"}
 
 ::: {style="color: black"}
 Singapore's housing market distinguishes itself by operating under a dual-market structure that includes a [public segment developed by the Housing Development Board (HDB)](https://www.economist.com/asia/2017/07/06/why-80-of-singaporeans-live-in-government-built-flats), subject to strict government rules and regulations, and a private segment where market dynamics exclusively dictate prices. Government-regulated HDB flats, which constitute approximately 73% of residential units, accommodate 80% of Singapore's populace, according to The Economist (2017). The government sets the prices for new HDB apartments, offering them to citizens at subsidized rates. [While the resale prices of HDB apartments are not directly managed, they are significantly shaped by governmental policies, which are periodically modified in response to the country's macroeconomic challenges](https://www.bis.org/publ/bppdf/bispap64h.pdf) (Chan et al., 2012). Despite the smaller scale of the private property sector, our analysis focuses on this segment due to its dynamics being less influenced by governmental control and more by market forces. Our study focuses on accurately and promptly predicting changes in private housing prices, a critical tool for homebuyers, sellers, investors, and policymakers.
@@ -22,17 +22,17 @@ Singapore's housing market distinguishes itself by operating under a dual-market
 
 ------------------------------------------------------------------------
 
-## ![](images/problem-02.png){width="45"} **Problem**  {style="color: darkblue"}
+## ![](images/problem-02.png){width="45"} **Problem** {style="color: darkblue"}
 
 ::: {style="color: black"}
-Forecasting Singapore’s private housing index is beset with difficulties, arising from the complex interplay among several factors such as economic indicators, employment trends, policy changes, and current market sentiments. The intricacy is further intensified by the delayed nature of crucial indices and indicators, which are commonly released with a substantial time delay, usually spanning from one to three months. These delays impede the capacity to accurately predict private house price changes, as the most up-to-date data required for precise forecasts is not easily accessible.
+Forecasting Singapore's private housing index is beset with difficulties, arising from the complex interplay among several factors such as economic indicators, employment trends, policy changes, and current market sentiments. The intricacy is further intensified by the delayed nature of crucial indices and indicators, which are commonly released with a substantial time delay, usually spanning from one to three months. These delays impede the capacity to accurately predict private house price changes, as the most up-to-date data required for precise forecasts is not easily accessible.
 
 To tackle this problem, it is necessary to utlilise nowcasting models that can precisely forecast the future direction of the Singapore private housing market. The objective is to utilize these models to provide stakeholders, including homebuyers, sellers, investors, and policy makers, with timely and convenient access to predictive data via visual analytics.
 :::
 
 ------------------------------------------------------------------------
 
-## ![](images/literature-01.png){width="45"} Current Literature  {style="color: darkblue"}
+## ![](images/literature-01.png){width="45"} Current Literature {style="color: darkblue"}
 
 ::: {style="color: black"}
 [Taniyama (2013)](https://www.nri.com/-/media/Corporate/en/Files/PDF/knowledge/publication/lakyara/2013/06/lakyaravol169.pdf?la=en&hash=9CDEB30C2F6C1222535B0E48647FB6FC04B16552) pioneers the use of real-time data, such as news articles and internet search queries, to forecast real estate market trends. By quantifying market sentiment and public interest obtained from these digital sources, the study presents an innovative approach for analyzing the present state of the housing market, demonstrating that immediate digital footprints might be effective indicators of market dynamics..
@@ -52,7 +52,7 @@ Leveraging a variety of R packages and visual analytics techniques, our team int
 The application developed by our team will enable users to:
 
 a.  Conduct visual analyses of critical time series data, including the housing price index, interest rates, construction raw material prices, and stock market indices, facilitating straightforward comparisons across these varying series.
-b.  Grasp the implications of fluctuating factors such as interest rates, stock market indices, and costs of raw materials—variables that shift within the period of calculating the housing price index—and understand their predictive value for the future direction of housing prices.
+b.  Grasp the implications of fluctuating factors such as interest rates, stock market indices, and costs of raw materials---variables that shift within the period of calculating the housing price index---and understand their predictive value for the future direction of housing prices.
 c.  Develop and display nowcasting models specifically tailored for the housing price index, assessing their precision using established evaluation metrics like the Mean Squared Error (MSE) or the Root Mean Squared Error (RMSE).
 :::
 

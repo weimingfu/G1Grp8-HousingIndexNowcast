@@ -10,12 +10,19 @@ website:
   navbar:
     logo: images/housing index.png
     left: 
+      - href: "https://isss608-wmfu.shinyapps.io/VAAProject/"
+        text: Shinyapp
+      - href: "userguide/userguide.html"
+        text: User Guide
+      - href: "poster/poster.html"
+        text: Poster
       - href: "Proposal/proposal.html"
         text: Proposal
     right:
-      - href: index.qmd
+      - icon: house-door-fill
+        href: index.qmd
         text: Home
-      - about.qmd
+
 
 format:
   html:
@@ -24,9 +31,7 @@ format:
     css: styles.css
     toc: true
 
-about: 
-  template: jolla
-  id: about-block
+
 
 editor: visual
 

@@ -1,14 +1,110 @@
 ---
 title: Is NOW the time to BUY?
 subtitle: Project on Visual Nowcasting for Property Price Index
+listing:
+  
+  - id: Proposal
+    contents:
+      - "Proposal/proposal.qmd"
+    type: default
+    
+  - id: Shinyapp
+    contents:
+      - "<a href='https://isss608-wmfu.shinyapps.io/VAAProject/'>Link to Shiny App</a>"
+    type: default  
+    
+  - id: Userguide
+    contents:
+      - "userguide/userguide.qmd"
+    type: default
+      
+  - id: poster
+    contents:
+      - "poster/poster.qmd"
+    type: default
+    
 format: html
 engine: knitr
+toc: false
 ---
 
 ![](images/clipboard-2414267684.png)
 
 Our team will explore to create nowcasting models that can precisely forecast the future direction of the Singapore private housing market. The objective is to utilize these models to provide stakeholders, including homebuyers, sellers, investors, and policy makers, with timely and convenient access to predictive data via visual analytics.
 
-# Stay Tuned for More Exciting Updates. {style="color: Gray"}
+::: content-container
+::: listing-block
+## Proposal
 
-For the time being, check out our [project proposal here.](https://g1grp8-housingindexnowcast.netlify.app/proposal/proposal)
+</a>
+
+::: {#Proposal}
+:::
+:::
+:::
+
+::: content-container
+::: listing-block
+## Shinyapp
+
+Can't wait to get started?
+
+Click on any of the images below to access our R Shiny Application.
+
+</a>
+
+::: {#Shinyapp}
+:::
+
+| Intro                                                                                               | EDA                                                | Time Series Forecasting                            | Nowcasting                                                                                          |
+|--------------------|-----------------|-----------------|--------------------|
+| [![](images/ShinyApp1.png){width="226" height="99"}](https://isss608-wmfu.shinyapps.io/VAAProject/) | ![](images/ShinyApp2.png){width="226" height="99"} | ![](images/ShinyApp3.png){width="226" height="99"} | [![](images/ShinyApp4.png){width="226" height="99"}](https://isss608-wmfu.shinyapps.io/VAAProject/) |
+:::
+:::
+
+::: content-container
+::: listing-block
+## User Guide
+
+Need help? Fret not.
+
+A user guide is available for all the help you need!
+
+[![](images/userguide.png){fig-align="center" width="450"}](userguide/userguide.qmd)
+:::
+:::
+
+::: content-container
+::: listing-block
+## Poster
+
+Want to know everything about the R Shiny application?
+
+A poster offering a 'bird's eye view' is available.
+
+[![](images/poster.png){fig-align="center" width="450"}](poster/poster.qmd)
+:::
+:::
+
+## The people behind the application
+
+Meet the team of to-be "property magnates"
+
+```{r flowchart, echo=FALSE}
+DiagrammeR::grViz("
+  digraph flowchart {
+    node [shape = oval, style = filled, fillcolor = lightblue, fontcolor = black];
+    
+    A [label = 'Project Sponsor\n Prof. Kam', fillcolor = '#FF6666', fontcolor = 'white'];
+    B [label = 'Nowcasting Private Property PPI', fillcolor = '#6666FF', fontcolor = 'white'];
+    C [label = 'Chief Explorer\nJingheng\njh.cai.2023@mitb.smu.edu.sg', fillcolor = '#66CC66', fontcolor = 'black'];
+    D [label = 'Chief Forecaster\nShannon\nshannon.lee.2022@mitb.smu.edu.sg', fillcolor = '#66CC66', fontcolor = 'black'];
+    E [label = 'Chief Nowcaster\nWeiming\nwm.fu.2023@mitb.smu.edu.sg', fillcolor = '#66CC66', fontcolor = 'black'];
+    
+    A -> B;
+    B -> C;
+    B -> D;
+    B -> E;
+  }
+")
+```
